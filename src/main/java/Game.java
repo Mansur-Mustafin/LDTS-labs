@@ -26,12 +26,15 @@ public class Game {
         }
     }
 
+    private void moveHero(Position position) {
+        hero.setPosition(position);
+    }
 
     private void processKey(KeyStroke key) {
-        if(key.getKeyType() == KeyType.ArrowUp)     this.hero.setY(this.hero.getY() - 1);
-        if(key.getKeyType() == KeyType.ArrowDown)   this.hero.setY(this.hero.getY() + 1);
-        if(key.getKeyType() == KeyType.ArrowLeft)   this.hero.setX(this.hero.getX() - 1);
-        if(key.getKeyType() == KeyType.ArrowRight)  this.hero.setX(this.hero.getX() + 1);
+        if(key.getKeyType() == KeyType.ArrowUp)     moveHero(hero.moveUp());
+        if(key.getKeyType() == KeyType.ArrowDown)   moveHero(hero.moveDown());
+        if(key.getKeyType() == KeyType.ArrowLeft)   moveHero(hero.moveLeft());
+        if(key.getKeyType() == KeyType.ArrowRight)  moveHero(hero.moveRight());
     }
 
     private void draw() throws IOException {

@@ -87,6 +87,7 @@ public class Arena {
         return true;
     }
 
+
     public void retrieveCoins(Position position){
         for(int i = 0; i < coins.size() ; i++){
             if(coins.get(i).position.equals(position)){
@@ -104,12 +105,32 @@ public class Arena {
         }
     }
 
+    public boolean canMonsterMove(Position position){
+        if(position.getX() < 0 || position.getY() < 0 || position.getX() > width - 1 || position.getY() > height - 1) return false;
+        for(Wall wall: walls) if(wall.getPosition().equals(position)) return false;
+
+        return true;
+    }
+
+    public void moveMonster(){
+        Random random = new Random();
+        for(Monster monster : monsters){
+            int x = random.nextInt(3) - 1;
+            int y = random.nextInt(3) - 1;
+            Position position = new Position(monster.position.getX() + x,monster.position.getY()+y);
+            if(canMonsterMove(position)){
+                monster.position.setX(position.getX());
+                monster.position.setY(position.getY());
+            }
+        }
+    }
 
     public void moveHero(Position position) {
         if (canHeroMove(position)) {
             retrieveCoins(position);
             verifyMonsterCollisions(position);
             hero.setPosition(position);
+            moveMonster();
         }
     }
 

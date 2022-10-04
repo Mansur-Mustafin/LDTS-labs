@@ -10,6 +10,8 @@ public class Position {
         this(10,10);
     }
 
+
+
     public int getX() { return x;}
     public void setX(int x) {
         this.x = x;

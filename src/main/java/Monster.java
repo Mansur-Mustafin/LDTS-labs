@@ -14,6 +14,10 @@ public class Monster extends Element {
         graphics.putString(new TerminalPosition(position.getX(), position.getY()), "M");
     }
 
+    public void move(Position pos){
+        this.position.setX(pos.getX());
+        this.position.setY(pos.getY());
+    }
 
 
 }

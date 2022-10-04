@@ -5,12 +5,10 @@ import com.googlecode.lanterna.TextColor;
 import com.googlecode.lanterna.graphics.TextGraphics;
 import com.googlecode.lanterna.screen.Screen;
 
-public class Hero {
-    private Position position = new Position();
+public class Hero extends Element {
 
     public Hero(int x,int y){
-        position.setX(x);
-        position.setY(y);
+        super(x,y);
     }
     public Hero(){
         this(10,10);
@@ -59,3 +57,4 @@ public class Hero {
 
 
 }
+

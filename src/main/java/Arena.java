@@ -128,9 +128,10 @@ public class Arena {
     public void moveHero(Position position) {
         if (canHeroMove(position)) {
             retrieveCoins(position);
-            verifyMonsterCollisions(position);
+
             hero.setPosition(position);
             moveMonster();
+            verifyMonsterCollisions(position);
         }
     }
 
@@ -142,7 +143,7 @@ public class Arena {
     }
 
     public void draw(TextGraphics graphics){
-        graphics.setBackgroundColor(TextColor.Factory.fromString("#336699"));
+        graphics.setBackgroundColor(TextColor.Factory.fromString("#75C6FF"));
         graphics.fillRectangle(new TerminalPosition(0, 0), new TerminalSize(width, height), ' ');
         hero.draw(graphics);
         for (Wall wall : walls)

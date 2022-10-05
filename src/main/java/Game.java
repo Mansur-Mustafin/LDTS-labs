@@ -12,8 +12,6 @@ import java.io.IOException;
 public class Game {
     private TerminalScreen screen;
 
-
-
     private Arena arena = new Arena(80,40);
 
     public Game() throws IOException {

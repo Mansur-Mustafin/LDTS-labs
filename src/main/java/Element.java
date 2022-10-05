@@ -5,8 +5,6 @@ public abstract class Element {
 
     public Position position;
 
-
-
     public Element(int x, int y){
         position = new Position(x,y);
     }

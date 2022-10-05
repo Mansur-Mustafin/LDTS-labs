@@ -42,7 +42,7 @@ public class Game {
                 screen.close();
             }
             if(key.getKeyType() == KeyType.EOF) break;
-            arena.processKey(key);
+            arena.processKey(key, screen);
         }
     }
 }

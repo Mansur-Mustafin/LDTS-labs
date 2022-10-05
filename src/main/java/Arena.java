@@ -6,6 +6,7 @@ import com.googlecode.lanterna.input.KeyStroke;
 import com.googlecode.lanterna.input.KeyType;
 import com.googlecode.lanterna.screen.Screen;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -18,6 +19,9 @@ public class Arena {
     private List<Monster> monsters;
 
     private List<Coin> coins;
+
+    private final Hero hero;
+
     private List<Coin> createCoins() {
         Random random = new Random();
         ArrayList<Coin> coins = new ArrayList<>();
@@ -65,7 +69,7 @@ public class Arena {
         return height;
     }
 
-    private final Hero hero;
+
 
     public Arena(int x , int y){
         width = x;
@@ -96,11 +100,12 @@ public class Arena {
         }
     }
 
-    public void verifyMonsterCollisions(Position position){
+    public void verifyMonsterCollisions(Position position, Screen screen) throws IOException {
         for(int i = 0; i < monsters.size() ; i++){
             if(monsters.get(i).position.equals(position)){
-                System.out.println("Acabou");
-                System.exit(0);
+                screen.close();
+                //System.out.println("Acabou");
+                //System.exit(0);
             }
         }
     }
@@ -125,21 +130,21 @@ public class Arena {
         }
     }
 
-    public void moveHero(Position position) {
+    public void moveHero(Position position, Screen screen) throws IOException {
         if (canHeroMove(position)) {
             retrieveCoins(position);
 
             hero.setPosition(position);
             moveMonster();
-            verifyMonsterCollisions(position);
+            verifyMonsterCollisions(position, screen);
         }
     }
 
-    public void processKey(KeyStroke key) {
-        if(key.getKeyType() == KeyType.ArrowUp)     moveHero(hero.moveUp());
-        if(key.getKeyType() == KeyType.ArrowDown)   moveHero(hero.moveDown());
-        if(key.getKeyType() == KeyType.ArrowLeft)   moveHero(hero.moveLeft());
-        if(key.getKeyType() == KeyType.ArrowRight)  moveHero(hero.moveRight());
+    public void processKey(KeyStroke key , Screen screen) throws IOException{
+        if(key.getKeyType() == KeyType.ArrowUp)     moveHero(hero.moveUp(), screen);
+        if(key.getKeyType() == KeyType.ArrowDown)   moveHero(hero.moveDown(), screen);
+        if(key.getKeyType() == KeyType.ArrowLeft)   moveHero(hero.moveLeft(), screen);
+        if(key.getKeyType() == KeyType.ArrowRight)  moveHero(hero.moveRight(), screen);
     }
 
     public void draw(TextGraphics graphics){

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.numbers.ListAggregatorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-10-11T09:21:18" hostname="LAPTOP-FA26I5NA" time="0.021">
+<testsuite name="com.aor.numbers.ListAggregatorTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-10-11T09:29:43" hostname="LAPTOP-FA26I5NA" time="0.022">
   <properties/>
-  <testcase name="max()" classname="com.aor.numbers.ListAggregatorTest" time="0.016"/>
-  <testcase name="min()" classname="com.aor.numbers.ListAggregatorTest" time="0.001"/>
+  <testcase name="max_bug_7263()" classname="com.aor.numbers.ListAggregatorTest" time="0.016"/>
+  <testcase name="max()" classname="com.aor.numbers.ListAggregatorTest" time="0.0"/>
+  <testcase name="min()" classname="com.aor.numbers.ListAggregatorTest" time="0.0"/>
   <testcase name="sum()" classname="com.aor.numbers.ListAggregatorTest" time="0.001"/>
   <testcase name="distinct()" classname="com.aor.numbers.ListAggregatorTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.numbers.ListAggregatorTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-10-18T15:34:02" hostname="LAPTOP-FA26I5NA" time="0.509">
+<testsuite name="com.aor.numbers.ListAggregatorTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-10-18T16:24:53" hostname="LAPTOP-FA26I5NA" time="1.041">
   <properties/>
-  <testcase name="max_bug_7263()" classname="com.aor.numbers.ListAggregatorTest" time="0.002"/>
+  <testcase name="max_bug_7263()" classname="com.aor.numbers.ListAggregatorTest" time="0.003"/>
   <testcase name="max_bug_8726()" classname="com.aor.numbers.ListAggregatorTest" time="0.001"/>
-  <testcase name="max()" classname="com.aor.numbers.ListAggregatorTest" time="0.0"/>
+  <testcase name="max()" classname="com.aor.numbers.ListAggregatorTest" time="0.001"/>
   <testcase name="min()" classname="com.aor.numbers.ListAggregatorTest" time="0.001"/>
   <testcase name="sum()" classname="com.aor.numbers.ListAggregatorTest" time="0.001"/>
-  <testcase name="distinct()" classname="com.aor.numbers.ListAggregatorTest" time="0.501"/>
+  <testcase name="distinct()" classname="com.aor.numbers.ListAggregatorTest" time="1.029"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

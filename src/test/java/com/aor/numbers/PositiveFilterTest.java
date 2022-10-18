@@ -5,20 +5,25 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class PositiveFilterTest {
-    Integer testnumber;
+
     PositiveFilter filtro = new PositiveFilter();
     boolean res;
 
 
-    @BeforeEach
-    public void helper(){
-        testnumber = 10;
-    }
 
     @Test
     public void Accrpt(){
+        Integer testnumber = 10;
         res = filtro.accept(testnumber);
         Assertions.assertEquals(true, res);
     }
+
+    @Test
+    public void Accrpt2(){
+        Integer testnumber = -5;
+        res = filtro.accept(testnumber);
+        Assertions.assertEquals(false, res);
+    }
+
 
 }

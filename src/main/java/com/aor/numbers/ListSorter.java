@@ -17,8 +17,8 @@ public class ListSorter implements GenericListSorter{
         for (Integer number : list)
             sorted.add(number);
 
-        for (int i = 0; i < sorted.size() - 1; i++)
-            for (int j = i + 1; j < sorted.size() - 1; j++)
+        for (int i = 0; i < sorted.size() ; i++)
+            for (int j = i + 1; j < sorted.size(); j++)
                 if (sorted.get(i) > sorted.get(j))
                     Collections.swap(sorted, i, j);
 

@@ -14,12 +14,12 @@ public class ListFiltererTest {
 
     @BeforeEach
     public void Create_list(){
-        list = Arrays.asList(1,2,3,4,5,6,6,7,-1,-2,-13);
+        list = Arrays.asList(1,2,3,4,5,6,6,7,-1,-2,-13, 0);
     }
 
     @Test
     public void filter_pos(){
-        expected = Arrays.asList(1,2,3,4,5,6,6,7);
+        expected = Arrays.asList(1,2,3,4,5,6,6,7,0);
         //PositiveFilter filt = new PositiveFilter();
 
         GenericListFilter filt = Mockito.mock(GenericListFilter.class);
@@ -34,6 +34,7 @@ public class ListFiltererTest {
         Mockito.when(filt.accept(-1)).thenReturn(false);
         Mockito.when(filt.accept(-2)).thenReturn(false);
         Mockito.when(filt.accept(-13)).thenReturn(false);
+        Mockito.when(filt.accept(0)).thenReturn(true);
 
         ListFilterer filter = new ListFilterer(filt);
         Assertions.assertEquals(expected,filter.filter(list) );
@@ -41,7 +42,7 @@ public class ListFiltererTest {
 
     @Test
     public void filter_div(){
-        expected = Arrays.asList(2,4,6,6,-2);
+        expected = Arrays.asList(2,4,6,6,-2,0);
 
         GenericListFilter filt = Mockito.mock(GenericListFilter.class);
 
@@ -57,7 +58,33 @@ public class ListFiltererTest {
         Mockito.when(filt.accept(-1)).thenReturn(false);
         Mockito.when(filt.accept(-2)).thenReturn(true);
         Mockito.when(filt.accept(-13)).thenReturn(false);
+        Mockito.when(filt.accept(0)).thenReturn(true);
 
+        ListFilterer filter = new ListFilterer(filt);
+
+        Assertions.assertEquals(expected,  filter.filter(list)  );
+    }
+
+
+    @Test
+    public void filter_div2(){
+        expected = Arrays.asList(1,2,3,4,5,6,6,7,-1,-2,-13, 0);
+
+        GenericListFilter filt = Mockito.mock(GenericListFilter.class);
+
+        //DivisibleByFilter D = new DivisibleByFilter(2);
+
+        Mockito.when(filt.accept(1)).thenReturn(true);
+        Mockito.when(filt.accept(2)).thenReturn(true);
+        Mockito.when(filt.accept(3)).thenReturn(true);
+        Mockito.when(filt.accept(4)).thenReturn(true);
+        Mockito.when(filt.accept(5)).thenReturn(true);
+        Mockito.when(filt.accept(6)).thenReturn(true);
+        Mockito.when(filt.accept(7)).thenReturn(true);
+        Mockito.when(filt.accept(-1)).thenReturn(true);
+        Mockito.when(filt.accept(-2)).thenReturn(true);
+        Mockito.when(filt.accept(-13)).thenReturn(true);
+        Mockito.when(filt.accept(0)).thenReturn(true);
         ListFilterer filter = new ListFilterer(filt);
 
         Assertions.assertEquals(expected,  filter.filter(list)  );

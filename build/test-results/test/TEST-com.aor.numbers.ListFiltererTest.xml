@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.numbers.ListFiltererTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-10-18T16:24:54" hostname="LAPTOP-FA26I5NA" time="0.055">
+<testsuite name="com.aor.numbers.ListFiltererTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-10-18T18:48:06" hostname="LAPTOP-FA26I5NA" time="0.022">
   <properties/>
-  <testcase name="filter_div()" classname="com.aor.numbers.ListFiltererTest" time="0.044"/>
-  <testcase name="filter_pos()" classname="com.aor.numbers.ListFiltererTest" time="0.01"/>
+  <testcase name="filter_div()" classname="com.aor.numbers.ListFiltererTest" time="0.015"/>
+  <testcase name="filter_pos()" classname="com.aor.numbers.ListFiltererTest" time="0.003"/>
+  <testcase name="filter_div2()" classname="com.aor.numbers.ListFiltererTest" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

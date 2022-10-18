@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.numbers.ListSorterTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-10-18T16:24:54" hostname="LAPTOP-FA26I5NA" time="0.042">
+<testsuite name="com.aor.numbers.ListSorterTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2022-10-18T18:48:06" hostname="LAPTOP-FA26I5NA" time="0.017">
   <properties/>
-  <testcase name="sort()" classname="com.aor.numbers.ListSorterTest" time="0.003"/>
-  <testcase name="bug_sort_8276()" classname="com.aor.numbers.ListSorterTest" time="0.038"/>
+  <testcase name="sort()" classname="com.aor.numbers.ListSorterTest" time="0.001"/>
+  <testcase name="sort2()" classname="com.aor.numbers.ListSorterTest" time="0.0"/>
+  <testcase name="sort3()" classname="com.aor.numbers.ListSorterTest" time="0.001"/>
+  <testcase name="sort4()" classname="com.aor.numbers.ListSorterTest" time="0.0"/>
+  <testcase name="sort5()" classname="com.aor.numbers.ListSorterTest" time="0.001"/>
+  <testcase name="sort8()" classname="com.aor.numbers.ListSorterTest" time="0.0"/>
+  <testcase name="bug_sort_8276()" classname="com.aor.numbers.ListSorterTest" time="0.012"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

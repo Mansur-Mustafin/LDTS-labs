@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.numbers.DivisionByFilterTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-10-18T16:24:52" hostname="LAPTOP-FA26I5NA" time="0.043">
+<testsuite name="com.aor.numbers.DivisionByFilterTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-10-18T18:48:05" hostname="LAPTOP-FA26I5NA" time="0.019">
   <properties/>
-  <testcase name="Test()" classname="com.aor.numbers.DivisionByFilterTest" time="0.042"/>
+  <testcase name="Test()" classname="com.aor.numbers.DivisionByFilterTest" time="0.016"/>
   <testcase name="Test2()" classname="com.aor.numbers.DivisionByFilterTest" time="0.001"/>
+  <testcase name="Test3()" classname="com.aor.numbers.DivisionByFilterTest" time="0.001"/>
+  <testcase name="Test4()" classname="com.aor.numbers.DivisionByFilterTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

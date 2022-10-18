@@ -25,5 +25,11 @@ public class PositiveFilterTest {
         Assertions.assertEquals(false, res);
     }
 
+    @Test
+    public void Accrpt3(){
+        Integer testnumber = 0;
+        res = filtro.accept(testnumber);
+        Assertions.assertEquals(false, res);
+    }
 
 }

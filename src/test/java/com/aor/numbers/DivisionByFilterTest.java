@@ -11,25 +11,37 @@ public class DivisionByFilterTest {
 
     DivisibleByFilter filt;
 
-    @BeforeEach
-    public void Construct(){
-        i = 10;
 
-    }
 
     @Test
     public void Test(){
+        i = 10;
         filt = new DivisibleByFilter(div);
         res = filt.accept(i);
         Assertions.assertEquals(true, res);
-
     }
 
     @Test
     public void Test2(){
+        i = 10;
         filt = new DivisibleByFilter(3);
         res = filt.accept(i);
         Assertions.assertEquals(false, res);
+    }
+
+    @Test
+    public void Test3(){
+        i = -10;
+        filt = new DivisibleByFilter(3);
+        res = filt.accept(i);
+        Assertions.assertEquals(false, res);
+    }
+    @Test
+    public void Test4(){
+        i = -10;
+        filt = new DivisibleByFilter(2);
+        res = filt.accept(i);
+        Assertions.assertEquals(true, res);
     }
 
 }

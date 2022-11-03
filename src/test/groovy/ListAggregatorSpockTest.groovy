@@ -79,10 +79,8 @@ class ListAggregatorSpockTest extends Specification{
         given:
         def deduplicator = Mock(ListDeduplicator)
         def aggregator = new ListAggregator()
-
         when:
         def n_distinct = aggregator.distinct(Arrays.asList(1, 2, 4, 2), deduplicator)
-
         then:
         3 == n_distinct
         1 * deduplicator.deduplicate(Arrays.asList(1, 2, 4, 2)) >> Arrays.asList(1, 2, 4)

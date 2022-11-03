@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ListAggregatorSpockTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2022-11-03T18:48:42" hostname="LAPTOP-FA26I5NA" time="0.407">
+<testsuite name="ListAggregatorSpockTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2022-11-03T19:11:37" hostname="LAPTOP-FA26I5NA" time="0.381">
   <properties/>
-  <testcase name="Testing: sum" classname="ListAggregatorSpockTest" time="0.024"/>
+  <testcase name="Testing: sum" classname="ListAggregatorSpockTest" time="0.02"/>
   <testcase name="Testing: max" classname="ListAggregatorSpockTest" time="0.001"/>
   <testcase name="Testing: min" classname="ListAggregatorSpockTest" time="0.001"/>
-  <testcase name="Testing: distinct" classname="ListAggregatorSpockTest" time="0.006"/>
+  <testcase name="Testing: distinct" classname="ListAggregatorSpockTest" time="0.007"/>
   <testcase name="testing distinct bug 8726" classname="ListAggregatorSpockTest" time="0.027"/>
-  <testcase name="testing distinct bug 8726 new" classname="ListAggregatorSpockTest" time="0.012"/>
-  <testcase name="testing distinct bug 8726 with expectation" classname="ListAggregatorSpockTest" time="0.335"/>
+  <testcase name="testing distinct bug 8726 new" classname="ListAggregatorSpockTest" time="0.01"/>
+  <testcase name="testing distinct bug 8726 with expectation" classname="ListAggregatorSpockTest" time="0.315"/>
   <testcase name="Testing max bug 7263" classname="ListAggregatorSpockTest" time="0.0"/>
   <system-out><![CDATA[3
 ]]></system-out>

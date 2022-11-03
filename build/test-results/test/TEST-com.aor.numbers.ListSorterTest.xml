@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.numbers.ListSorterTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2022-11-03T19:18:48" hostname="LAPTOP-FA26I5NA" time="0.016">
+<testsuite name="com.aor.numbers.ListSorterTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2022-11-03T19:33:16" hostname="LAPTOP-FA26I5NA" time="0.016">
   <properties/>
   <testcase name="sort()" classname="com.aor.numbers.ListSorterTest" time="0.001"/>
   <testcase name="sort2()" classname="com.aor.numbers.ListSorterTest" time="0.0"/>
   <testcase name="sort3()" classname="com.aor.numbers.ListSorterTest" time="0.001"/>
   <testcase name="sort4()" classname="com.aor.numbers.ListSorterTest" time="0.0"/>
   <testcase name="sort5()" classname="com.aor.numbers.ListSorterTest" time="0.0"/>
-  <testcase name="sort8()" classname="com.aor.numbers.ListSorterTest" time="0.0"/>
+  <testcase name="sort8()" classname="com.aor.numbers.ListSorterTest" time="0.001"/>
   <testcase name="bug_sort_8276()" classname="com.aor.numbers.ListSorterTest" time="0.012"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

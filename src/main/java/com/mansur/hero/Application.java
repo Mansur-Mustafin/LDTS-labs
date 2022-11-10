@@ -1,3 +1,5 @@
+package com.mansur.hero;
+
 import java.io.IOException;
 
 public class Application {

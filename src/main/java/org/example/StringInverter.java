@@ -10,4 +10,13 @@ public class StringInverter implements StringTransformer{
         input1.reverse();
         drink.setText(input1.toString());
     }
+
+    @Override
+    public void undo(StringDrink drink){
+        String s = drink.getText();
+        StringBuilder input1 = new StringBuilder();
+        input1.append(s);
+        input1.reverse();
+        drink.setText(input1.toString());
+    }
 }

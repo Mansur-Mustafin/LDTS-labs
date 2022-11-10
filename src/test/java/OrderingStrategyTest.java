@@ -56,13 +56,15 @@ public class OrderingStrategyTest {
         HumanClient client = new HumanClient(strategy);
         HumanClient client2 = new HumanClient(strategy);
         stringBar.addObserver(client); // this is important!
-        //stringBar.addObserver(client2); // this is important!
+        stringBar.addObserver(client2); // this is important!
         client.wants(drink, recipe, stringBar);
-        //client2.wants(drink, recipe, stringBar);
+        client2.wants(drink2, recipe, stringBar);
         assertEquals("AbCd-aBcD", drink.getText());
-        //assertEquals("AbCd-aBcD", drink2.getText());
+        assertEquals("AbCd-aBcD", drink2.getText());
         // Recipe is only ordered here
         stringBar.startHappyHour();
+        assertEquals("dCbX-DcBa", drink2.getText());
         assertEquals("dCbX-DcBa", drink.getText());
+
     }
 }

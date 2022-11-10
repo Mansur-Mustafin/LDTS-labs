@@ -24,4 +24,7 @@ public class StringBar extends Bar{
         notifyObservers();
     }
 
+    public void order(StringDrink drink, StringRecipe recipe){
+        recipe.mix(drink);
+    }
 }

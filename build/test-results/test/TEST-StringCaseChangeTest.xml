@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="StringCaseChangeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-10T00:02:37" hostname="LAPTOP-FA26I5NA" time="0.019">
+<testsuite name="StringCaseChangeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-10T00:13:25" hostname="LAPTOP-FA26I5NA" time="0.021">
   <properties/>
-  <testcase name="stringCaseChanger()" classname="StringCaseChangeTest" time="0.019"/>
+  <testcase name="stringCaseChanger()" classname="StringCaseChangeTest" time="0.021"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

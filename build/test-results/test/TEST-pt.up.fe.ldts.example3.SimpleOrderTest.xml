@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="pt.up.fe.ldts.example3.SimpleOrderTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-12-06T17:20:34" hostname="LAPTOP-FA26I5NA" time="0.001">
+<testsuite name="pt.up.fe.ldts.example3.SimpleOrderTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-12-06T23:05:45" hostname="LAPTOP-FA26I5NA" time="0.002">
   <properties/>
   <testcase name="testFixedDiscount()" classname="pt.up.fe.ldts.example3.SimpleOrderTest" time="0.0"/>
   <testcase name="testPercentageDiscount()" classname="pt.up.fe.ldts.example3.SimpleOrderTest" time="0.001"/>
-  <testcase name="testNoDiscount()" classname="pt.up.fe.ldts.example3.SimpleOrderTest" time="0.0"/>
+  <testcase name="testNoDiscount()" classname="pt.up.fe.ldts.example3.SimpleOrderTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

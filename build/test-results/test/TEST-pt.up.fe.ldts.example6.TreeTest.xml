@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="pt.up.fe.ldts.example6.TreeTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-12-06T16:20:16" hostname="LAPTOP-FA26I5NA" time="0.016">
+<testsuite name="pt.up.fe.ldts.example6.TreeTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-12-06T16:50:49" hostname="LAPTOP-FA26I5NA" time="0.014">
   <properties/>
-  <testcase name="testTreeSetLocation()" classname="pt.up.fe.ldts.example6.TreeTest" time="0.007"/>
+  <testcase name="testTreeSetLocation()" classname="pt.up.fe.ldts.example6.TreeTest" time="0.006"/>
   <testcase name="testToString()" classname="pt.up.fe.ldts.example6.TreeTest" time="0.001"/>
   <testcase name="testAddAppraisal()" classname="pt.up.fe.ldts.example6.TreeTest" time="0.001"/>
   <testcase name="testNextAppraisalNotOverdue()" classname="pt.up.fe.ldts.example6.TreeTest" time="0.002"/>

@@ -4,7 +4,53 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29e99c27-f5f5-407a-b7b5-e62936b2e696" name="Changes" comment="" />
+    <list default="true" id="29e99c27-f5f5-407a-b7b5-e62936b2e696" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/pt/up/fe/ldts/example1/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/pt/up/fe/ldts/example1/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/pt/up/fe/ldts/example1/OrderLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/pt/up/fe/ldts/example1/OrderLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/pt.up.fe.ldts.example1.OrderSpockTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/pt.up.fe.ldts.example1.OrderSpockTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/pt.up.fe.ldts.example1.OrderTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/pt.up.fe.ldts.example1.OrderTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/pt.up.fe.ldts.example2.ShapeSpockTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/pt.up.fe.ldts.example2.ShapeSpockTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/pt.up.fe.ldts.example2.ShapeTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/pt.up.fe.ldts.example2.ShapeTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/pt.up.fe.ldts.example3.SimpleOrderSpockTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/pt.up.fe.ldts.example3.SimpleOrderSpockTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/pt.up.fe.ldts.example3.SimpleOrderTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/pt.up.fe.ldts.example3.SimpleOrderTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/pt.up.fe.ldts.example4.WorkerSpockTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/pt.up.fe.ldts.example4.WorkerSpockTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/pt.up.fe.ldts.example4.WorkerTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/pt.up.fe.ldts.example4.WorkerTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/pt.up.fe.ldts.example5.TurtleSpockTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/pt.up.fe.ldts.example5.TurtleSpockTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/pt.up.fe.ldts.example5.TurtleTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/pt.up.fe.ldts.example5.TurtleTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/pt.up.fe.ldts.example6.TreeSpockTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/pt.up.fe.ldts.example6.TreeSpockTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/pt.up.fe.ldts.example6.TreeTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/pt.up.fe.ldts.example6.TreeTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/pt.up.fe.ldts.example1.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/pt.up.fe.ldts.example1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/pt.up.fe.ldts.example2.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/pt.up.fe.ldts.example2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/pt.up.fe.ldts.example3.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/pt.up.fe.ldts.example3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/pt.up.fe.ldts.example4.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/pt.up.fe.ldts.example4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/pt.up.fe.ldts.example5.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/pt.up.fe.ldts.example5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/pt.up.fe.ldts.example6.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/pt.up.fe.ldts.example6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-pt.up.fe.ldts.example1.OrderSpockTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-pt.up.fe.ldts.example1.OrderSpockTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-pt.up.fe.ldts.example1.OrderTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-pt.up.fe.ldts.example1.OrderTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-pt.up.fe.ldts.example2.ShapeSpockTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-pt.up.fe.ldts.example2.ShapeSpockTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-pt.up.fe.ldts.example2.ShapeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-pt.up.fe.ldts.example2.ShapeTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-pt.up.fe.ldts.example3.SimpleOrderSpockTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-pt.up.fe.ldts.example3.SimpleOrderSpockTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-pt.up.fe.ldts.example3.SimpleOrderTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-pt.up.fe.ldts.example3.SimpleOrderTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-pt.up.fe.ldts.example4.WorkerSpockTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-pt.up.fe.ldts.example4.WorkerSpockTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-pt.up.fe.ldts.example4.WorkerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-pt.up.fe.ldts.example4.WorkerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-pt.up.fe.ldts.example5.TurtleSpockTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-pt.up.fe.ldts.example5.TurtleSpockTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-pt.up.fe.ldts.example5.TurtleTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-pt.up.fe.ldts.example5.TurtleTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-pt.up.fe.ldts.example6.TreeSpockTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-pt.up.fe.ldts.example6.TreeSpockTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-pt.up.fe.ldts.example6.TreeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-pt.up.fe.ldts.example6.TreeTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/up/fe/ldts/example1/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/up/fe/ldts/example1/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/up/fe/ldts/example1/OrderLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/up/fe/ldts/example1/OrderLine.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +97,7 @@
     </system>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -66,7 +112,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "last_opened_file_path": "C:/Users/musta/Downloads/REF/refactoring"
+    "last_opened_file_path": "C:/Users/musta/Downloads/REFSOL/refactoring"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -217,6 +263,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

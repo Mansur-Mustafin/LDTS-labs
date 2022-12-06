@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="pt.up.fe.ldts.example5.TurtleTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-12-06T16:20:16" hostname="LAPTOP-FA26I5NA" time="0.002">
+<testsuite name="pt.up.fe.ldts.example5.TurtleTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-12-06T16:50:49" hostname="LAPTOP-FA26I5NA" time="0.002">
   <properties/>
   <testcase name="testForward()" classname="pt.up.fe.ldts.example5.TurtleTest" time="0.001"/>
   <testcase name="testRotateLeft()" classname="pt.up.fe.ldts.example5.TurtleTest" time="0.0"/>

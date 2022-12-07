@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="pt.up.fe.ldts.example4.WorkerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-12-06T23:48:42" hostname="LAPTOP-FA26I5NA" time="0.002">
+<testsuite name="pt.up.fe.ldts.example4.WorkerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-12-07T00:04:53" hostname="LAPTOP-FA26I5NA" time="0.001">
   <properties/>
   <testcase name="testClient()" classname="pt.up.fe.ldts.example4.WorkerTest" time="0.0"/>
-  <testcase name="testWorker()" classname="pt.up.fe.ldts.example4.WorkerTest" time="0.0"/>
-  <testcase name="testSupervisor()" classname="pt.up.fe.ldts.example4.WorkerTest" time="0.001"/>
+  <testcase name="testWorker()" classname="pt.up.fe.ldts.example4.WorkerTest" time="0.001"/>
+  <testcase name="testSupervisor()" classname="pt.up.fe.ldts.example4.WorkerTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

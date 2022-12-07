@@ -23,18 +23,18 @@ public class TreeTest {
     @Test
     public void testTreeCreation() {
         Assertions.assertEquals(tree.plantedAt, date);
-        Assertions.assertEquals("41.177772696363114", tree.locationLatitude);
-        Assertions.assertEquals("-8.59843522310257", tree.locationLongitude);
-        Assertions.assertEquals("FEUP", tree.locationName);
+        Assertions.assertEquals("41.177772696363114", tree.getLocation().getLocationLatitude());
+        Assertions.assertEquals("-8.59843522310257", tree.getLocation().getLocationLongitude());
+        Assertions.assertEquals("FEUP", tree.getLocation().getLocationName());
     }
 
     @Test
     public void testTreeSetLocation() {
         tree.setLocation("loclat", "loclon", "locname");
         Assertions.assertEquals(tree.plantedAt, date);
-        Assertions.assertEquals("loclat", tree.locationLatitude);
-        Assertions.assertEquals("loclon", tree.locationLongitude);
-        Assertions.assertEquals("locname", tree.locationName);
+        Assertions.assertEquals("loclat", tree.getLocation().getLocationLatitude());
+        Assertions.assertEquals("loclon", tree.getLocation().getLocationLongitude());
+        Assertions.assertEquals("locname", tree.getLocation().getLocationName());
     }
 
     @Test

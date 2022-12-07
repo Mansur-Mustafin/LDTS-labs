@@ -16,9 +16,9 @@ class TreeSpockTest extends Specification {
     def 'Tree Creation'() {
         expect:
             tree.plantedAt == date
-            tree.locationLatitude == "41.177772696363114"
-            tree.locationLongitude == "-8.59843522310257"
-            tree.locationName == "FEUP"
+            tree.getLocation().getLocationLatitude() == "41.177772696363114"
+            tree.getLocation().getLocationLongitude() == "-8.59843522310257"
+            tree.getLocation().getLocationName() == "FEUP"
     }
 
     def 'Tree Set Location'() {
@@ -27,9 +27,9 @@ class TreeSpockTest extends Specification {
 
         expect:
             tree.plantedAt == date
-            tree.locationLatitude == "loclat"
-            tree.locationLongitude == "loclon"
-            tree.locationName == "locname"
+        tree.getLocation().getLocationLatitude() == "loclat"
+        tree.getLocation().getLocationLongitude() == "loclon"
+        tree.getLocation().getLocationName() == "locname"
     }
 
     def 'Tree to String'() {

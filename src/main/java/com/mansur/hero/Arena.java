@@ -55,14 +55,6 @@ public class Arena {
     }
 
 
-    public void setWidth(int x){
-        width = x;
-    }
-    public void setHeight(int y){
-        height = y;
-    }
-
-
     public int getWidth() {
         return width;
     }
@@ -82,7 +74,7 @@ public class Arena {
         this.monsters = createMonster();
     }
 
-    private boolean canHeroMove(Position position){
+    public boolean canHeroMove(Position position){
         if(position.getX() < 0 ) return false;
         if(position.getY() < 0) return false;
         if(position.getX() > width - 1) return false;
@@ -106,8 +98,6 @@ public class Arena {
         for(int i = 0; i < monsters.size() ; i++){
             if(monsters.get(i).position.equals(position)){
                 screen.close();
-                //System.out.println("Acabou");
-                //System.exit(0);
             }
         }
     }

@@ -3,6 +3,7 @@ package com.mansur.hero;
 import com.googlecode.lanterna.TerminalSize;
 import com.googlecode.lanterna.input.KeyStroke;
 import com.googlecode.lanterna.input.KeyType;
+import com.googlecode.lanterna.screen.Screen;
 import com.googlecode.lanterna.screen.TerminalScreen;
 import com.googlecode.lanterna.terminal.DefaultTerminalFactory;
 import com.googlecode.lanterna.terminal.Terminal;
@@ -29,7 +30,7 @@ public class Game {
         }
     }
 
-    private void draw() throws IOException {
+    public void draw() throws IOException {
         screen.clear();
         arena.draw(screen.newTextGraphics());
         screen.refresh();
@@ -41,9 +42,19 @@ public class Game {
             KeyStroke key = screen.readInput();
             if(key.getKeyType() == KeyType.Character && key.getCharacter() == 'q'){
                 screen.close();
+                break;
             }
             if(key.getKeyType() == KeyType.EOF) break;
             arena.processKey(key, screen);
         }
+    }
+
+
+
+    public void setArena(Arena a){
+        this.arena = a;
+    }
+    public void setScreen(TerminalScreen s){
+        this.screen = s;
     }
 }

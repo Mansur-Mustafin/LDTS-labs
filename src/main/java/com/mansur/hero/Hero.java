@@ -11,32 +11,24 @@ public class Hero extends Element {
     public Hero(int x,int y){
         super(x,y);
     }
-    public Hero(){
-        this(10,10);
-    }
+
 
     public int getX() {
         return position.getX();
     }
 
-    public void setX(int x) {
-        this.position.setX(x);
-    }
+
 
     public int getY() {
         return position.getY();
     }
 
-    public void setY(int y) {
-        this.position.setY(y);
-    }
 
     public void draw(TextGraphics graphics){
         graphics.setForegroundColor(TextColor.Factory.fromString("#564C89"));
         graphics.enableModifiers(SGR.BOLD);
         graphics.putString(new TerminalPosition(position.getX(), position.getY()), "X");
     }
-
     public Position moveUp(){
         return new Position(position.getX(), position.getY() - 1);
     }
@@ -54,7 +46,6 @@ public class Hero extends Element {
         this.position.setY(position_new.getY());
         this.position.setX(position_new.getX());
     }
-
 
 
 }

@@ -21,6 +21,4 @@ public class Monster extends Element {
         this.position.setX(pos.getX());
         this.position.setY(pos.getY());
     }
-
-
 }

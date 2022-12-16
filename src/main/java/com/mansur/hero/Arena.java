@@ -63,6 +63,7 @@ public class Arena {
         return height;
     }
 
+    public Hero getHero(){return hero;}
 
 
     public Arena(int x , int y){
@@ -125,7 +126,6 @@ public class Arena {
     public void moveHero(Position position, Screen screen) throws IOException {
         if (canHeroMove(position)) {
             retrieveCoins(position);
-
             hero.setPosition(position);
             moveMonster();
             verifyMonsterCollisions(position, screen);

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.numbers.ListFiltererTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-11-03T19:33:16" hostname="LAPTOP-FA26I5NA" time="0.023">
-  <properties/>
-  <testcase name="filter_div()" classname="com.aor.numbers.ListFiltererTest" time="0.016"/>
-  <testcase name="filter_pos()" classname="com.aor.numbers.ListFiltererTest" time="0.004"/>
-  <testcase name="filter_div2()" classname="com.aor.numbers.ListFiltererTest" time="0.003"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

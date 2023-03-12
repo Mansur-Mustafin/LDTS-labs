@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.aor.numbers.PositiveFilterTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-03-08T23:01:19" hostname="LAPTOP-FA26I5NA" time="0.003">
+  <properties/>
+  <testcase name="Accrpt2()" classname="com.aor.numbers.PositiveFilterTest" time="0.0"/>
+  <testcase name="Accrpt3()" classname="com.aor.numbers.PositiveFilterTest" time="0.0"/>
+  <testcase name="Accrpt()" classname="com.aor.numbers.PositiveFilterTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

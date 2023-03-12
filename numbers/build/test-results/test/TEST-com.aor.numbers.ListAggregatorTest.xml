@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.aor.numbers.ListAggregatorTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2023-03-08T23:01:19" hostname="LAPTOP-FA26I5NA" time="0.227">
+  <properties/>
+  <testcase name="max_bug_7263()" classname="com.aor.numbers.ListAggregatorTest" time="0.003"/>
+  <testcase name="max_bug_8726()" classname="com.aor.numbers.ListAggregatorTest" time="0.001"/>
+  <testcase name="max()" classname="com.aor.numbers.ListAggregatorTest" time="0.001"/>
+  <testcase name="min()" classname="com.aor.numbers.ListAggregatorTest" time="0.001"/>
+  <testcase name="sum()" classname="com.aor.numbers.ListAggregatorTest" time="0.001"/>
+  <testcase name="max1()" classname="com.aor.numbers.ListAggregatorTest" time="0.0"/>
+  <testcase name="distinct()" classname="com.aor.numbers.ListAggregatorTest" time="0.215"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,26 @@
+pt/up/fe/ldts/example3/Discount.java
+ pt.up.fe.ldts.example3.Discount
+pt/up/fe/ldts/example1/OrderLine.java
+ pt.up.fe.ldts.example1.OrderLine
+pt/up/fe/ldts/example2/Shape.java
+ pt.up.fe.ldts.example2.Shape
+ pt.up.fe.ldts.example2.Shape$1
+ pt.up.fe.ldts.example2.Shape$TYPE
+pt/up/fe/ldts/example1/Product.java
+ pt.up.fe.ldts.example1.Product
+pt/up/fe/ldts/example5/Turtle.java
+ pt.up.fe.ldts.example5.Turtle
+pt/up/fe/ldts/example6/Tree.java
+ pt.up.fe.ldts.example6.Tree
+pt/up/fe/ldts/example3/SimpleOrder.java
+ pt.up.fe.ldts.example3.SimpleOrder
+pt/up/fe/ldts/example4/Client.java
+ pt.up.fe.ldts.example4.Client
+pt/up/fe/ldts/example2/GraphicFramework.java
+ pt.up.fe.ldts.example2.GraphicFramework
+pt/up/fe/ldts/example1/Order.java
+ pt.up.fe.ldts.example1.Order
+pt/up/fe/ldts/example4/Supervisor.java
+ pt.up.fe.ldts.example4.Supervisor
+pt/up/fe/ldts/example4/Worker.java
+ pt.up.fe.ldts.example4.Worker
